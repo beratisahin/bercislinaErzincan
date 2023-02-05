@@ -2,7 +2,7 @@ import "./FotografVideo.css";
 import React from 'react';
 import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
-import Instagram from "./bercislinaErzincanInstgram.webp"
+import Instagram from "./bercislinaSamsunInstgram.webp"
 
 export default function FotografVideo() {
     useDocumentTitle('Fotoğraflar- Erzincan Bercislina Güzellik Merkezi');

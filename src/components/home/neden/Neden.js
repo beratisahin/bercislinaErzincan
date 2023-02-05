@@ -1,7 +1,6 @@
 import "./Neden.css";
 
 import SecurityIcon from '@material-ui/icons/Security';
-import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
 import HowToRegIcon from '@material-ui/icons/HowToReg';
 import EcoIcon from '@material-ui/icons/Eco';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';

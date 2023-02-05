@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
-import useDocumentTitle from '../../useDocumentTitle';
 
 
 
@@ -93,10 +92,10 @@ class ContactForm extends Component {
       };
 
       emailjs.send(
-        "service_w0qwp8g",
-        "template_2cgvw2k",
+        "service_6s5iw96",
+        "template_ycv7jxs",
         templateParams,
-        "rRJdV24Q4fs80v8cF" 
+        "lj7c85LFsjOz1MHZ4" 
         
       );
 

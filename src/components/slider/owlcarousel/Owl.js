@@ -3,7 +3,6 @@ import './Owl.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
-import { NavigateBeforeSharp } from '@material-ui/icons';
 
 import o1 from "../owlcarousel/owlIcons/1.webp";
 import o2 from "../owlcarousel/owlIcons/2.webp";

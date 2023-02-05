@@ -34,7 +34,7 @@ function App() {
             <Route path="/hakkimizda" component={Hakkimizda} />
 
             <Route exact path="/medikal-cilt-bakimi" component={Medikal} />
-            <Route exact path="/champion-lazer-epilasyon" component={Tum} />
+            <Route exact path="/lazer-epilasyon" component={Tum} />
             <Route
               exact
               path="/hydrafacial-cilt-bakimi"

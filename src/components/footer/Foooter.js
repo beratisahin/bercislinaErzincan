@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MainLogo2 from "../header/berSamLogo.png";
+import MainLogo2 from "../header/berErzLogo.png";
 
 
 
@@ -62,31 +62,31 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
                     <tbody>
                         <tr style={{height:"2px"}}>
                             <td>Pazartesi</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Salı</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Çarşamba</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Perşembe</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Cuma</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Cumartesi</td>
-                            <td>09:30 - 19:30</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Pazar</td>
-                            <td>Kapalı</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                       
                     </tbody>
@@ -110,7 +110,7 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://www.instagram.com/bercislinavipErzincan/"
+              href="https://www.instagram.com/bercislina_guzellik_erzincan/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -118,7 +118,7 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
               <InstagramIcon className="icon" style={{fontSize:"24px",color:"purple"}}/>
             </a>
             <a
-              href="https://wa.me/+905525032020"
+              href="https://wa.me/+905521556524"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -126,7 +126,7 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
               <WhatsAppIcon className="icon" style={{fontSize:"24px",color:"lightgreen"}}/>
             </a>
             <a
-              href="tel: +905525032020"
+              href="tel: +905521556524"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -145,35 +145,35 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
             <br/>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a href="mailto:bercislinaErzincan@gmail.com">
+              <a href="mailto:bercislinaerzincan@gmail.com">
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              bercislinaErzincan@gmail.com  
+              bercislinaerzincan@gmail.com  
             </p>
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a
-                href="tel: +905525032020"
+                href="tel: +905521556524"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0552 503 20 20  <FontAwesomeIcon icon="coffee" size="lg" />
+              0552 155 65 24  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               
               <a 
-                href="https://goo.gl/maps/RnMtfRQ9r6zdbkd39"
+                href="https://goo.gl/maps/6ue7GirtpBLKSZVdA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              Kale Mahalesi Hacı Hatun Sokak No:1 Fatih İş Merkezi <br/> C Blok  Kat: 3 <b style={{paddingLeft:"10px"}}>İlkadım / Erzincan</b>{" "}
+              Atatürk Mahallesi Fevzi Paşa Caddesi Ünsal Plaza <br/> Daire: 21   Kat:2/4  <b style={{paddingLeft:"10px"}}>Merkez / Erzincan</b>{" "}
 
              
             </p>
@@ -188,9 +188,9 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
             <hr/> 
                     <div className="patent" >
                         
-                            <p style={{fontSize:"12px",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
+                            <p style={{fontSize:"12px",paddingLeft:"1rem",float:"left"}}> ©2023 All Rights Reserved</p> 
                             &nbsp; &nbsp;
-                            <a className="sebertech" href="tel: +905449125561"
+                            <a className="sebertech" href="https://wa.me/+905449125561?text=Merhaba%20Berati%20Bey%2C%20web%20sitesi%20hizmetiniz%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                                target="_blank" 
                                rel="noopener noreferrer"
                                style={{fontSize:"12px",paddingRight:"1rem",float:"right",textAlign:"right",color:"black"}}> ®Se<b>B</b>er Tech</a>
@@ -199,19 +199,19 @@ Erzincan Bercislina Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikle
 
 
           <div className="roof-location">
-              <a href="https://goo.gl/maps/RnMtfRQ9r6zdbkd39" className="location_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://goo.gl/maps/6ue7GirtpBLKSZVdA" className="location_float" target="_blank" rel="noopener noreferrer">
                   <LocationOnIcon className="location-icon"/>
               </a>
           </div>
 
           <div className="roof-phone">
-              <a href="tel: +905525032020" className="phone_float" target="_blank" rel="noopener noreferrer">
+              <a href="tel: +905521556524" className="phone_float" target="_blank" rel="noopener noreferrer">
                   <PhoneIcon className="phone-icon"/>  
               </a>
           </div>
 
           <div className="roof-whatsapp">
-              <a href="https://wa.me/+905525032020" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+905521556524" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
                   <WhatsAppIcon className="whatsapp-icon"/>
               </a>
           </div>
