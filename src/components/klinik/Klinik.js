@@ -8,6 +8,12 @@ import k2 from "./kampanyalar/2.webp";
 import k3 from "./kampanyalar/3.webp";
 import k4 from "./kampanyalar/4.webp";
 import k5 from "./kampanyalar/5.webp";
+import k6 from "./kampanyalar/6.webp";
+import k7 from "./kampanyalar/7.webp";
+import k8 from "./kampanyalar/8.webp";
+import k9 from "./kampanyalar/9.webp";
+
+
 
 import KampComp from "./KlinikComp.js";
 
@@ -72,6 +78,26 @@ export default function Klinik() {
 
                 <KampComp
                     kampanyaResim={k5}
+                    kampanyaAd="https://wa.me/+905521556524?text=Merhaba%2C%20G5%20Masaj%C4%B1%20(799%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                />
+
+                <KampComp
+                    kampanyaResim={k6}
+                    kampanyaAd="https://wa.me/+905521556524?text=Merhaba%2C%20G5%20Masaj%C4%B1%20(799%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                />
+
+                <KampComp
+                    kampanyaResim={k7}
+                    kampanyaAd="https://wa.me/+905521556524?text=Merhaba%2C%20Heykelt%C4%B1ra%C5%9F%20(999%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                />
+
+                <KampComp
+                    kampanyaResim={k8}
+                    kampanyaAd="https://wa.me/+905521556524?text=Merhaba%2C%20G5%20Masaj%C4%B1%20(799%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                />
+
+                <KampComp
+                    kampanyaResim={k9}
                     kampanyaAd="https://wa.me/+905521556524?text=Merhaba%2C%20G5%20Masaj%C4%B1%20(799%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
             </OwlCarousel>
