@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 // Email validation
 const emailRegex = RegExp(
@@ -156,36 +155,7 @@ class ContactForm extends Component {
     const { formErrors } = this.state;
 
     return (
-      <div class="row">
-        <div class="col-lg-6s col-md-6 col-sm-12 col-12" style={{padding:"5rem"}}>
-            <p className="contactInfo">İletişim Numaralarımız</p>
-
-
-           
-              <WhatsAppIcon className="whatsappLogo"/>
-              <p style={{float:"left",fontSize:"large"}}>0552 155 65 24</p>
-           
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.730315698509!2d39.4938384!3d39.7467805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57c6d6ce7769b0dd!2sErzincan%20Bercislina%20G%C3%BCzellik%20Salonu!5e0!3m2!1str!2str!4v1675605218481!5m2!1str!2str"
-            className="googleharita"
-            style={{
-              width: "100%",
-              height: "45rem",
-              frameBorder: "0",
-              allowFullScreen: "",
-              referrerpolicy: "no-referrer-when-downgrade",
-              ariaHidden: "false",
-              tabIndex: "0",
-              border: "2px #e30387 solid",
-              paddingBottom: "0.5rem",
-              paddingTop: "0.5rem",
-            }}
-          >
-            {" "}
-          </iframe></div>
-        
-
+      <div>
         <div
           className="col-12 contactFormTemp"
           style={{

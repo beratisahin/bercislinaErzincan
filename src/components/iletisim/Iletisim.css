@@ -9,17 +9,13 @@
 }
 .contactInfo{
     text-align: center;
-    font-size: large;
-    margin-bottom: 3rem;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    color:#e30387;
+    margin-bottom: 2rem !important;
 }
-.whatsappLogo{
-    font-size: xx-large !important;
-    color:#25d366;
-    margin:auto !important;
-    justify-content: center !important;
-    float: left !important;
-    margin-right: 2rem !important;
-}
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 1370px) {

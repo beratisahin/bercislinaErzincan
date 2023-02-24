@@ -64,7 +64,7 @@ export default class Foooter extends Component {
               personellerimizle siz değerli danışanlarımıza lazer epilasyon,
               kavitasyon, bölgesel incelme, slim zayıflama, kirpik lifting,
               yosun peeling, hydrafacial ve medikal cilt bakımı vb alanlarında
-              hijyenik ortamda en iyi şekilde hizmet vermek öncelikliğimizdir.
+              hijyenik ortamda en iyi şekilde hizmet vermek temel önceliğimizdir.
               Son teknoloji cihazlarımızla bayanlar ve baylar için hizmetlerimiz
               bulunmaktadır.
             </p>

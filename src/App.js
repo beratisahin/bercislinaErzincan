@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Hakkimizda from "./components/hakkimizda/Hakkimizda";
 
-import Iletisim from "./components/iletisim/ContactForm";
+import Iletisim from "./components/iletisim/Iletisim";
 
 import Medikal from "./components/hizmetler/MedikalCiltBakimi";
 import Tum from "./components/hizmetler/TumVucutLazerEpilasyon";
