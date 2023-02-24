@@ -15,6 +15,7 @@ import Hydrafacial from "./components/hizmetler/HydrafacialCiltBakimi";
 import G5 from "./components/hizmetler/G5Masaji";
 import KirpikLifting from "./components/hizmetler/EnseYanakBoyunEpilasyon";
 import KasLaminasyonu from "./components/hizmetler/BikiniBolgesi";
+import YosunPeeling from "./components/hizmetler/YosunPeeling";
 
 import Cihazlar from "./components/hizmetler/Urunler";
 import Blog from "./components/blog/Blog";
@@ -43,6 +44,8 @@ function App() {
             <Route exact path="/g5-kavitasyon" component={G5} />
             <Route exact path="/kirpik-lifting" component={KirpikLifting} />
             <Route exact path="/kas-laminasyonu" component={KasLaminasyonu} />
+            <Route exact path="/yosun-peeling" component={YosunPeeling} />
+
 
             <Route exact path="/cihazlarimiz" component={Cihazlar} />
 

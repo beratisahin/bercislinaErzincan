@@ -3,11 +3,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
-
-
-
-
-
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 // Email validation
 const emailRegex = RegExp(
@@ -32,19 +28,18 @@ const formValid = ({ formErrors, ...rest }) => {
 };
 
 class ContactForm extends Component {
-  
   constructor(props) {
     super(props);
     this.state = {
       name: "",
       email: "",
-      number:"",
+      number: "",
       subject: "",
       message: "",
       formErrors: {
         name: "",
         email: "",
-        number:"",
+        number: "",
         subject: "",
         message: "",
       },
@@ -80,7 +75,7 @@ class ContactForm extends Component {
 
     if (formValid(this.state)) {
       // Handle form validation success
-      const { name, email,number, subject, message } = this.state;
+      const { name, email, number, subject, message } = this.state;
 
       // Set template params
       let templateParams = {
@@ -95,10 +90,8 @@ class ContactForm extends Component {
         "service_6s5iw96",
         "template_ycv7jxs",
         templateParams,
-        "lj7c85LFsjOz1MHZ4" 
-        
+        "lj7c85LFsjOz1MHZ4"
       );
-
 
       console.log(`
         --SUBMITTING--
@@ -123,7 +116,7 @@ class ContactForm extends Component {
     this.setState({
       name: "",
       email: "",
-      number:"",
+      number: "",
       subject: "",
       message: "",
     });
@@ -144,8 +137,9 @@ class ContactForm extends Component {
           : "Please enter a valid email address.";
         break;
       case "number":
-          formErrors.subject = value.length < 1 ? "Please enter a cell phone number." : "";
-          break;
+        formErrors.subject =
+          value.length < 1 ? "Please enter a cell phone number." : "";
+        break;
       case "subject":
         formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
         break;
@@ -160,48 +154,77 @@ class ContactForm extends Component {
 
   render() {
     const { formErrors } = this.state;
-    
+
     return (
-      <div>
+      <div class="row">
+        <div class="col-lg-6s col-md-6 col-sm-12 col-12" style={{padding:"5rem"}}>
+            <p className="contactInfo">İletişim Numaralarımız</p>
+
+
+           
+              <WhatsAppIcon className="whatsappLogo"/>
+              <p style={{float:"left",fontSize:"large"}}>0552 155 65 24</p>
+           
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.730315698509!2d39.4938384!3d39.7467805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57c6d6ce7769b0dd!2sErzincan%20Bercislina%20G%C3%BCzellik%20Salonu!5e0!3m2!1str!2str!4v1675605218481!5m2!1str!2str"
+            className="googleharita"
+            style={{
+              width: "100%",
+              height: "45rem",
+              frameBorder: "0",
+              allowFullScreen: "",
+              referrerpolicy: "no-referrer-when-downgrade",
+              ariaHidden: "false",
+              tabIndex: "0",
+              border: "2px #e30387 solid",
+              paddingBottom: "0.5rem",
+              paddingTop: "0.5rem",
+            }}
+          >
+            {" "}
+          </iframe></div>
+        
+
         <div
           className="col-12 contactFormTemp"
           style={{
             display: "flex",
             justifyContent: "center",
-            
+
             /*backgroundImage: "url(" + mailback + ")", */
-            backgroundColor:"#DCDCDC",
-            backgroundPosition:"center",
+            backgroundColor: "#DCDCDC",
+            backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            
-            width:"100%",
-            marginTop:"1rem",
-            marginBottom:"0.5rem",
-            borderRadius:"1rem"
-            
-            
-            
+
+            width: "100%",
+            marginTop: "1rem",
+            marginBottom: "0.5rem",
+            borderRadius: "1rem",
           }}
         >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-3">
-          
-            <p className="iletisimegec"
+            <p
+              className="iletisimegec"
               style={{
                 display: "flex",
                 justifyContent: "center",
                 color: "#e30387",
-                padding:"1%",
-                fontSize:"large",
-                
-                
+                padding: "1%",
+                fontSize: "large",
               }}
-            >  
-               Bizimle İletişime Geçebilirsiniz
+            >
+              Bizimle İletişime Geçebilirsiniz
             </p>
-            
-            <form id="contact-form" style={{marginLeft:"10%",marginRight:"10%"}} onSubmit={this.handleSubmit} noValidate>
-              <div className="row" >
+
+            <form
+              id="contact-form"
+              style={{ marginLeft: "10%", marginRight: "10%" }}
+              onSubmit={this.handleSubmit}
+              noValidate
+            >
+              <div className="row">
                 <div className="col-12">
                   <input
                     type="text"
@@ -218,9 +241,8 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.name}</span>
                   )}
                 </div>
-               <br/>
-               <br/>
-               
+                <br />
+                <br />
 
                 <div className="col-12">
                   <input
@@ -238,8 +260,8 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.email}</span>
                   )}
                 </div>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <div className="col-12">
                   <input
                     type="number"
@@ -257,9 +279,9 @@ class ContactForm extends Component {
                   )}
                 </div>
 
-                <br/>
-                <br/>
-               
+                <br />
+                <br />
+
                 <div className="col-12">
                   <input
                     type="subject"
@@ -276,9 +298,8 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.subject}</span>
                   )}
                 </div>
-                <br/>
-                <br/>
-                
+                <br />
+                <br />
 
                 <div className="col-12">
                   <textarea
@@ -297,8 +318,8 @@ class ContactForm extends Component {
                   )}
                 </div>
               </div>
-              <br/>
-              
+              <br />
+
               <div
                 className="col-12"
                 style={{ display: "flex", justifyContent: "center" }}
@@ -307,13 +328,18 @@ class ContactForm extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#e30387",display:"block",margin:"auto",align:"justify" }}
+                    style={{
+                      backgroundColor: "#e30387",
+                      display: "block",
+                      margin: "auto",
+                      align: "justify",
+                    }}
                   >
                     <b>Gönder</b>
                   </button>
                 </div>
               </div>
-              <br/>
+              <br />
             </form>
           </div>
 

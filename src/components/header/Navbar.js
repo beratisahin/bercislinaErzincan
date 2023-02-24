@@ -89,6 +89,11 @@ export default class Navbar extends Component {
                     Kaş Laminasyonu
                   </a>
                 </li>
+                <li>
+                  <a href="/yosun-peeling" class="menu-link">
+                    Yosun Peeling
+                  </a>
+                </li>
               </ul>
             </li>
             <li>
