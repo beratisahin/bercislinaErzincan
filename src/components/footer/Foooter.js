@@ -63,7 +63,7 @@ export default class Foooter extends Component {
               Erzincan Bercislina Güzellik Merkezi olarak alanında uzman
               personellerimizle siz değerli danışanlarımıza lazer epilasyon,
               kavitasyon, bölgesel incelme, slim zayıflama, kirpik lifting,
-              yosun peeling, hydrafacial ve medikal cilt bakımı vb alanlarında
+              yosun peeling, hydrafacial cilt bakımı vb alanlarında
               hijyenik ortamda en iyi şekilde hizmet vermek temel önceliğimizdir.
               Son teknoloji cihazlarımızla bayanlar ve baylar için hizmetlerimiz
               bulunmaktadır.
@@ -82,31 +82,31 @@ export default class Foooter extends Component {
               <tbody>
                 <tr style={{ height: "2px" }}>
                   <td>Pazartesi</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Salı</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Çarşamba</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Perşembe</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Cuma</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Cumartesi</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
                 <tr>
                   <td>Pazar</td>
-                  <td>09:00 - 19:00</td>
+                  <td>09:00 - 19:30</td>
                 </tr>
               </tbody>
             </table>

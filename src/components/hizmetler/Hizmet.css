@@ -19,4 +19,10 @@
     .hizmetyazi{
         font-size: small !important;
     }
+    .yImg{
+        width: 100% !important;
+        margin: auto !important;
+        justify-content: center !important;
+        height: 250px;
+    }
 }

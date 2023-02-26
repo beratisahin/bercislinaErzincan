@@ -60,11 +60,6 @@ export default class Navbar extends Component {
               </a>
               <ul class="submenu">
                 <li>
-                  <a href="/medikal-cilt-bakimi" class="menu-link">
-                    Medikal Cilt Bakımı
-                  </a>
-                </li>
-                <li>
                   <a href="/lazer-epilasyon" class="menu-link">
                     Lazer Epilasyon
                   </a>

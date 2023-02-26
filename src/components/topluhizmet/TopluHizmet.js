@@ -6,6 +6,8 @@ import m3 from "./hizmetFotolar/bl3.webp";
 import m4 from "./hizmetFotolar/bl4.webp";
 import m5 from "./hizmetFotolar/bl5.webp";
 import m6 from "./hizmetFotolar/bl6.webp";
+import m7 from "./hizmetFotolar/yosun.webp";
+
 import React, { Component } from "react";
 import { TextField } from "@material-ui/core";
 import { Button } from "@material-ui/core";
@@ -46,15 +48,6 @@ export default class TopluHizmet extends Component {
       >
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <Taslak
-            taslaktitle="Medikal Cilt Bakımı"
-            taslakphoto={m2}
-            taslaktext="Erzincan Bercislina Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-            taslaklink="/medikal-cilt-bakimi"
-          />
-          <Send />
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Taslak
             taslaktitle="Lazer Epilasyon"
             taslakphoto={m5}
             taslaktext="Erzincan Bercislina Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
@@ -62,6 +55,16 @@ export default class TopluHizmet extends Component {
           />
           <Send />
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <Taslak
+            taslaktitle="Yosun Peeling"
+            taslakphoto={m7}
+            taslaktext="Erzincan Bercislina Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaklink="/medikal-cilt-bakimi"
+          />
+          <Send />
+        </div>
+        
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <Taslak
             taslaktitle="Hydrafacial Cilt Bakımı"

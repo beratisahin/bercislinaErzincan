@@ -77,32 +77,32 @@ export default function YosunPeeling() {
             yoğunluğuna ve özelliğine bağlı olarak önerilen seans sayıları
             tamamlanmalıdır.
           </p>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <img
-              class="yImg"
-              title="Erzincan Yosun Peeling"
-              alt="Yosun Peeling"
-              src={y1}
-            ></img>
+          <div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <img
+                class="yImg"
+                title="Erzincan Yosun Peeling"
+                alt="Yosun Peeling"
+                src={y1}
+              ></img>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <img
+                class="yImg"
+                title="Erzincan Yosun Peeling"
+                alt="Yosun Peeling"
+                src={y2}
+              ></img>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+              <img
+                class="yImg"
+                title="Erzincan Yosun Peeling"
+                alt="Yosun Peeling"
+                src={y3}
+              ></img>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <img
-              class="yImg"
-              title="Erzincan Yosun Peeling"
-              alt="Yosun Peeling"
-              src={y2}
-            ></img>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <img
-              class="yImg"
-              title="Erzincan Yosun Peeling"
-              alt="Yosun Peeling"
-              src={y3}
-            ></img>
-          </div>
-
           <h4>
             <strong>
               Algea peelingin etki ettiği cilt problemleri nelerdir?&nbsp;
