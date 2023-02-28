@@ -51,7 +51,7 @@ export default class TopluHizmet extends Component {
             taslaktitle="Lazer Epilasyon"
             taslakphoto={m5}
             taslaktext="Erzincan Bercislina Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-            taslaklink="/robotix-lazer-epilasyon"
+            taslaklink="/lazer-epilasyon"
           />
           <Send />
         </div>
@@ -60,7 +60,7 @@ export default class TopluHizmet extends Component {
             taslaktitle="Yosun Peeling"
             taslakphoto={m7}
             taslaktext="Erzincan Bercislina Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-            taslaklink="/medikal-cilt-bakimi"
+            taslaklink="/yosun-peeling"
           />
           <Send />
         </div>

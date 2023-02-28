@@ -47,21 +47,21 @@ export default function YosunPeeling() {
             <strong>Kaş laminasyonu nedir?&nbsp;</strong>
           </h4>
           <p class="hizmetyazi">
-            Kaş laminasyonu, kaşların uzun süreli şekillendirilmesini sağlayan
-            kaş bakım işlemidir. Kaşların yukarı doğru sabit kalmasını sağlarken
-            bir yandan da kaşların daha taranmış ve şekilli görünmesine yardımcı
-            olur. Bazı sert kaş kılları ters yöne doğru uzayabiliyor veya içe
-            doğru kıvrılabiliyor. Kaş laminasyonu, bu gibi inatçı kaşların
-            şekillendirilmesini sağlayarak daha düzgün uzayan gür kaşlara sahip
-            olmana yardımcı olur. Kaş laminasyonu yarı kalıcı bir işlemdir,
-            ortalama ömrü 6-8 hafta arasındadır. Kaş laminasyonu kimlere uygun?:
-            Bu işlemi en çok kaşları sürekli aşağı düşen, kıvrılan ve yanlış
-            yöne doğru uzayan kişiler yaptırıyor. Sert kaşlara sahip olup, gün
-            içinde kaşlarının düşmesinden ve kaşların simetrisinin bozuk
-            olmasından şikayetçi olan kişiler için kaş laminasyonu uygundur. Kaş
-            laminasyonunda kaşların arası doldurulmaz, bu nedenle daha gür
-            kaşlara sahip olmak isteyenler işlemden iki gün sonra microblading
-            yani kalıcı kaş makyajı yaptırabilirler.
+            Biyolojik peeling uygulamalarından biri olan yosun peeling (algea
+            peeling); 12 Deniz yosunundan oluşan bir İçeriğe sahiptir. Hafif
+            dokunuşlarla yapılan masajla cilt altına itilir ve ürün 3,5
+            milimetre cilt altına inerek 72 saat çalışarak mucizevi etkisini
+            gösterir. Cildin pH dengesini, asidik bir ürün içermediği için
+            bozmadan yapılandırarak yeni hücre oluşumuna yardımcı olur. Bu
+            bakımı yaparken cildin doğal iyileştirme prosesini devreye soktuğu
+            için naturel bir şekilde cilt altında bir iyileştirme ,hücre
+            yenileme hızını arttırma , hücre bariyerlerini kuvvetlendirme,
+            elastin ve kolajen üretimini arttırmak üzere Cilt de yaşanan Problem
+            her ne ise o problemi iyileştirmek üzere bir tür savaş başlatmış
+            olur. Bu bakımın en güzel özelliklerinden biri de uygulama
+            protokollerini değiştirerek Her yaş grubuna, hassas cilt tiplerine,
+            hamilelerde, kuperozlu hatta rozasea hassasiyeti olan ciltlerde bile
+            kullanabilme imkanı sunmasıdır.
           </p>
 
           <h4>
@@ -123,6 +123,35 @@ export default function YosunPeeling() {
             üretmek için fibroblastlar ı uyarır, Sebum üretimini azaltır ve
             bakterilerle savaşır, Langerhan hücrelerini uyarır, Pigmentasyon
             lekelerini normal değiştirir, Cildin yapısını normal değiştirir.
+          </p>
+          <h4>
+            <strong>ALLGAE (YOSUN PEELİNG) &nbsp;</strong>
+          </h4>
+          <p class="hizmetyazi">
+            * Nano teknoloji ile üretilen ilk yosun peeling 'tir. * İçerisinde
+            bir çok yararlı mineral ve element bulundurur . * %100 doğal formülü
+            ile hassas sorunlu ciltlerde de rahatlıkla kullanılabilir. * Asit
+            içermez, bu sayede cildin PH dengesini bozmaz. * Dermatolojik olarak
+            test edilmiştir.
+          </p>
+          <h4>
+            <strong>#ETKİLİ OLDUĞU ALANLAR#&nbsp;</strong>
+          </h4>
+          <p class="hizmetyazi">
+            * Lekeli ve akneli ciltler * Kırışık ve sarkmış ciltler * Tüm cilt
+            tipleri (kuru, normal, yağlı, hassas) * Genişlemiş gözenekler *
+            Yanık ve yara izleri * Kararmış bölgeler * Pigmentasyon farkları ve
+            yaşlılık lekeleri * Roza hastalığı * Çatlak-Yırtık-Skar doku onarımı
+          </p>
+          <h4>
+            <strong>#ALLGAE YOSUN PEELİNG MUCİZESİ ! #&nbsp;</strong>
+          </h4>
+          <p class="hizmetyazi">
+            * Kollajen ve elastin üretecek hücreleri uyarır * Bakterilerle
+            savaşır ve cildi problemlere karşı korur. * Cilt hücrelerini uyarır
+            ; hücrelerin yenilenmesi için ihtiyaç duydukları enerjiyi sağlar. *
+            Ölü deri hücrelerini yok eder * Ciltteki gözenekleri temizler ,
+            küçüktür ve sıkılaştırır.
           </p>
         </div>
       </div>

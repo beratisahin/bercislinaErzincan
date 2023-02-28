@@ -23,8 +23,8 @@ function Hakkimizda() {
             Huzurlu atmosferi, güvenliği, teknolojik donanımı, deneyimli güler
             yüzlü ekibi ile estetik ve güzellik sektöründe Erzincan’da merkezi
             konumuyla siz değerli müşterilerimizin hizmetinizdedir. Lazer
-            Epilasyon, Dermatolojik ürünlerle Cilt Bakımı, Kalıcı Makyaj,
-            Bölgesel Zayıflama, Profesyonel Makyaj, Kaş Tasarımı hizmetlerimiz
+            Epilasyon, Dermatolojik ürünlerle Cilt Bakımı,
+            Bölgesel Zayıflama hizmetlerimiz
             profosyenel ürünlerle kaliteden ödün vermeden uygulanmaktadır.
             Ayrıca en son teknoloji Lazer Epilasyon Cihazı ile istenmeyen
             tüylerden en kısa sürede kurtularak, pürüzsüz bir cilde
@@ -37,9 +37,8 @@ function Hakkimizda() {
           <p class="hizmetyazi">
             Yılların verdiği özgüven ve tecrübe ile daima en iyiyi hedefleyen bu
             doğrultu da yıllardır ekip ve ekipmanı ile sektörün vazgeçilmezi
-            olmak için emin adımlarla, şehrin gözdesi Erzincan merkezde ileri seviye hizmet vermektedir. Kadın ve erkeklere özel
-            ayrı salonlarımızda, memnuniyet ve sonuç odaklı profesyonel
-            uygulamalar yapıyoruz.
+            olmak için emin adımlarla, şehrin gözdesi Erzincan merkezde ileri seviye hizmet vermektedir. danışanlarımıza, memnuniyet ve sonuç odaklı profesyonel
+            uygulamalar sağlıyoruz.
           </p>
 
           <p class="hizmetyazi">
