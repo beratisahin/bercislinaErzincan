@@ -44,7 +44,7 @@ export default function YosunPeeling() {
           </p>
 
           <h4>
-            <strong>Kaş laminasyonu nedir?&nbsp;</strong>
+            <strong>Yosun Peeling nedir?&nbsp;</strong>
           </h4>
           <p class="hizmetyazi">
             Biyolojik peeling uygulamalarından biri olan yosun peeling (algea
